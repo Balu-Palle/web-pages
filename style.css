@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:poppins;
+}
+body{
+
+    color:rgb(0, 0, 0);
+    background-color:#000000;
+    margin: 0;
+    padding: 0;
+    background-position: 100%;
+
+}
+.header{
+    display: block;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color:#15f4ee;
+    color:red;
+}
+nav ul{
+    display:flex;
+    justify-content: center;  
+}
+nav ul li{
+    list-style:none;
+    margin:0 40px;
+}
+.left{
+    font-size: 3.0rem;
+}
+main .leftsection{
+    font-size: 50px;
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 10%;
+    color:transparent;
+
+}
+header{
+
+    display:contents;
+    text-decoration: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+}
+.one,.two,.three,.four,.five {
+    transition: 1.5s;
+    font-size: 20px;
+    margin-left: 80px;
+}
+
+.one :hover{
+    color:#d11589;
+    font-weight: bolder;
+    border-color:#ffea76;
+    text-shadow: 0 0 10px #d11589,
+                  0 0 50px #d11589,
+                  0 0 90px #d11589;
+    
+    text-decoration: overline;
+
+
+
+}
+.two :hover{
+    color:#d11589;
+    font-weight: bolder;
+    border-color:#ffea76;
+    text-shadow: 0 0 10px #d11589,
+                  0 0 50px #d11589,
+                  0 0 90px #d11589;
+    
+    text-decoration: overline;
+}
+.three :hover{
+    color:#d11589;
+    font-weight: bolder;
+    border-color:#ffea76;
+    text-shadow: 0 0 10px #d11589,
+                  0 0 50px #d11589,
+                  0 0 90px #d11589;
+    
+    text-decoration: overline;
+}
+.four:hover a {
+    color:#d11589;
+    font-weight: bolder;
+    border-color:#ffea76;
+    text-shadow: 0 0 10px #d11589,
+                  0 0 50px #d11589,
+                  0 0 90px #d11589;
+    
+    text-decoration: overline;
+
+    
+}
+.five :hover{
+    color:#d11589;
+    font-weight: bolder;
+    border-color:#ffea76;
+    text-shadow: 0 0 10px #d11589,
+                  0 0 50px #d11589,
+                  0 0 90px #d11589;
+    
+    text-decoration: overline;
+}
+.fa-brands  {
+display:inline-flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+background: transparent;
+width: 4rem;
+height: 4rem;
+border: 0.1rem solid  #15f4ee;
+border-radius: 50%;
+font-size :4rem;
+color:  #15f4ee;
+margin: 3rem 1.5rem 3rem 0;
+transition: 0.5s;
+
+}
+
+.fa-brands:hover{
+color:rgb(255, 22, 251);
+background-color: #ffffff;
+
+}
+fa-brands fa-facebook{
+transition: 1.5s;
+}
+.left{
+font-weight:bolder;
+color:#000000;
+}
+img{
+    margin-top: 30px;
+    margin-left: 30px;
+    width:600px;
+    height:500px;
+    justify-content: right;
+    opacity:0.8;
+}
+section
+{
+    display:flex;
+    flex-direction: row;
+    background:url(https://media.istockphoto.com/id/1248542684/vector/abstract-blurred-colorful-background.jpg?s=612x612&w=0&k=20&c=6aJX8oyUBsSBZFQUCJDP7KZ1y4vrf-wEH_SJsuq7B5I=);
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: animate 30s alternate infinite;
+}
+@keyframes animate {
+    from{
+        background-position: 0% 80%;
+    }
+    to{
+        background-position: 100% 50%;
+    }
+    
+}
+.lefts{
+    color:#15f4ee;
+    font-size: 50px;
+    margin-top: 90px;
+    margin-left: 50px;
+
+}
+.rights{
+    margin-top: 250px;
+    margin-left: 420px;
+    font-size: 40px;
+    color:#ff00fb
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
