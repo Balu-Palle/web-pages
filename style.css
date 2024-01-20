@@ -37,8 +37,9 @@ nav ul li{
 main .leftsection{
     font-size: 50px;
     text-align: left;
-    margin-top: 150px;
+    margin-top: 180px;
     margin-left: 10%;
+    margin-bottom: 80px;
     color:transparent;
 
 }
@@ -62,9 +63,9 @@ a{
     color:#d11589;
     font-weight: bolder;
     border-color:#ffea76;
-    text-shadow: 0 0 10px #d11589,
-                  0 0 50px #d11589,
-                  0 0 90px #d11589;
+    text-shadow: 0 0 10px #ff82cf,
+                  0 0 50px #ff82cf,
+                  0 0 90px #ff82cf;
     
     text-decoration: overline;
 
@@ -75,9 +76,9 @@ a{
     color:#d11589;
     font-weight: bolder;
     border-color:#ffea76;
-    text-shadow: 0 0 10px #d11589,
-                  0 0 50px #d11589,
-                  0 0 90px #d11589;
+    text-shadow: 0 0 10px #ff82cf,
+                  0 0 50px #ff82cf,
+                  0 0 90px #ff82cf;
     
     text-decoration: overline;
 }
@@ -85,9 +86,9 @@ a{
     color:#d11589;
     font-weight: bolder;
     border-color:#ffea76;
-    text-shadow: 0 0 10px #d11589,
-                  0 0 50px #d11589,
-                  0 0 90px #d11589;
+    text-shadow: 0 0 10px #ff82cf,
+                  0 0 50px #ff82cf,
+                  0 0 90px #ff82cf;
     
     text-decoration: overline;
 }
@@ -95,9 +96,9 @@ a{
     color:#d11589;
     font-weight: bolder;
     border-color:#ffea76;
-    text-shadow: 0 0 10px #d11589,
-                  0 0 50px #d11589,
-                  0 0 90px #d11589;
+    text-shadow: 0 0 10px #ff82cf,
+                  0 0 50px #ff82cf,
+                  0 0 90px #ff82cf;
     
     text-decoration: overline;
 
@@ -107,9 +108,9 @@ a{
     color:#d11589;
     font-weight: bolder;
     border-color:#ffea76;
-    text-shadow: 0 0 10px #d11589,
-                  0 0 50px #d11589,
-                  0 0 90px #d11589;
+    text-shadow: 0 0 10px #ff82cf,
+                  0 0 50px #ff82cf,
+                  0 0 90px #ff82cf;
     
     text-decoration: overline;
 }
@@ -142,8 +143,8 @@ transition: 1.5s;
 font-weight:bolder;
 color:#000000;
 }
-img{
-    margin-top: 30px;
+.photo{
+    margin-top: 10px;
     margin-left: 30px;
     width:600px;
     height:500px;
@@ -161,11 +162,14 @@ section
     animation: animate 30s alternate infinite;
 }
 @keyframes animate {
-    from{
-        background-position: 0% 80%;
+    0%{
+        background-position: 0% 50%;
     }
-    to{
+    50%{
         background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% -50%;
     }
     
 }
@@ -174,14 +178,46 @@ section
     font-size: 50px;
     margin-top: 90px;
     margin-left: 50px;
+    margin-bottom: 0px;
 
 }
-.rights{
-    margin-top: 250px;
-    margin-left: 420px;
+.second-section{
+    margin-top: 300px;
+    margin-left: 10px;
     font-size: 40px;
-    color:#ff00fb
+    background:linear-gradient(135deg, #ff00d2, #fed90f,#00a2ff,#09f1b8,#ff00d2, #fed90f, #00a2ff,#09f1b8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 200%;
+    animation:gradient 8s ease-in-out infinite;
 
+}
+@keyframes gradient {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+    
+}
+
+
+span{
+    color:#d11589;
+}
+ .picture,.photo1{
+    margin-top:100px;
+    margin-left:50px;
+    margin-right:40px;
+    margin-inline-start: -90px;
+    width:550px;
+    height:500px;
+    filter: drop-shadow(5px 5px 10px rgba(0,0,0,0) inline-block
+                         5px 10px 20px black inline-flex);
 }
 
 
